@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.app-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 85% 5%;
+    grid-template-areas: "h" "m" "f";
+    height: 100vh;
+    background-image: url(../images/singer.jpg);
+    font-family: 'Indie Flower', cursive;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+@media(max-width: 1000px) {
+    .app-wrapper {
+        background-size: auto 100%;
+    }
+}
+
+.app-wrapper>Switch>Route {
+    display: flex;
+    justify-content: center;
+}
+
+.aside {
+    grid-area: a;
+}
+
+.main {
+    grid-area: m;
+    height: 100%;
+    width: 100%;
+}

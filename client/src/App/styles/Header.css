@@ -1,0 +1,28 @@
+.header {
+    grid-area: h;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-left: 50px;
+}
+    @media(max-width: 600px) {
+        .header {
+            font-size: 30px;
+            justify-content: center;
+            padding: 0;
+        }
+    }
+
+.header>a {
+    text-decoration: none;
+    color: white;
+    margin: 25px;
+    transition: transform 1s, text-shadow 1s;
+}
+
+.header>a:hover {
+    transform: scale(1.3);
+    text-shadow: 3px 3px black;
+}
