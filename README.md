@@ -14,7 +14,7 @@ Unfortunately, full use of this API is very expensive. Users will only be able t
 ![homepage-web](screenshots/homepage-web-view.png)
 
 ### Mobile View<br/>
-<img alt="homepage-web-view" src="screenshots/homepage-mobile-view.png" width="250" height="auto"><img alt="homepage-web-view" src="screenshots/homepage-mobile-view.png" width="250" height="auto">
+<img alt="homepage-web-view" src="screenshots/homepage-mobile-view.png" width="350" height="auto"><img alt="homepage-web-view" src="screenshots/lyrics-mobile-view.png" margin="10px"width="350" height="auto">
 
 ## Links
 
