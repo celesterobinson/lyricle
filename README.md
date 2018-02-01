@@ -13,7 +13,7 @@ Unfortunately, full use of this API is very expensive. Users will only be able t
 Web View
 ![homepage](screenshots/homepage-web-view.png)
 
-Mobile View
+Mobile View<br/>
 ![homepage-mobile](screenshots/homepage-mobile-view.png)
 
 ## Links
