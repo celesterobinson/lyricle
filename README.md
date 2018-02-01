@@ -8,12 +8,12 @@ Build an React/Redux App integrated with the MusixMatch API that displays lyrics
 
 Unfortunately, full use of this API is very expensive. Users will only be able to see 30% of the lyrics. Ultimate goal is to purchase full use.
 
-###Home Page
+##Home Page
 
-####Web View
+Web View
 ![homepage](screenshots/homepage-web-view.png)
 
-####Mobile View
+Mobile View
 ![homepage-mobile](screenshots/homepage-mobile-view.png)
 
 ## Links
