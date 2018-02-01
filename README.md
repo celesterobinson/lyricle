@@ -4,9 +4,9 @@ Celeste Robinson
 
 ## Objective
 
-Build an React/Redux App integrated with the MusixMatch API that displays lyrics to the user based on the track and artist that they input. Allow user to favorite songs they love so they can quickly access the lyrics of those songs. Make the app completely responsive.
+Build a React/Redux App integrated with the MusixMatch API that displays lyrics based on user input. Allow user to favorite songs they love so they can quickly access the lyrics of those songs. Make the app completely responsive.
 
-Unfortunately, full use of this API is very expensive. Users will only be able to see 30% of the lyrics. Ultimate goal is to purchase full use.
+Unfortunately, full use of this API is very expensive. Users will only be able to see 30% of the lyrics. My long-term goal is to purchase full use.
 
 ### Home Page
 
@@ -14,8 +14,7 @@ Unfortunately, full use of this API is very expensive. Users will only be able t
 ![homepage-web](screenshots/homepage-web-view.png)
 
 ### Mobile View<br/>
-<img alt="homepage-web-view" src="screenshots/homepage-mobile-view.png" width="250" height="auto">
-<img alt="homepage-web-view" src="screenshots/homepage-mobile-view.png" width="250" height="auto">
+<img alt="homepage-web-view" src="screenshots/homepage-mobile-view.png" width="250" height="auto"><img alt="homepage-web-view" src="screenshots/homepage-mobile-view.png" width="250" height="auto">
 
 ## Links
 
