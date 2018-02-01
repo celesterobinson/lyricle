@@ -17,7 +17,7 @@ Unfortunately, full use of this API is very expensive. Users will only be able t
 ![lyrics-page](screenshots/lyrics-web-view.png)
 
 ### Mobile Views<br/>
-Home Page<img alt="homepage-web-view" src="screenshots/homepage-mobile-view.png" width="300" height="auto">Lyrics Page<img alt="homepage-web-view" src="screenshots/lyrics-mobile-view.png" width="300" height="auto">
+Home Page<br/><img alt="homepage-web-view" src="screenshots/homepage-mobile-view.png" width="300" height="auto">Lyrics Page<br/><img alt="homepage-web-view" src="screenshots/lyrics-mobile-view.png" width="300" height="auto">
 
 ## Links
 
