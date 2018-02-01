@@ -91,7 +91,7 @@ handleSubmit(e) {
 }
 ```
 
-Blamo! After importing connect, and my getLyrics action, I call the function with this.state.inputs passed in, and my request is made.
+Blamo! After importing connect, and my ```getLyrics``` action, I call the function with ```this.state.inputs``` passed in, and my request is made.
 
 ## Wireframes
 ![MusixMatch Wireframe](wireframe/musixmatch-wireframe.png)
