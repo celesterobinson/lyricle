@@ -100,5 +100,7 @@ Blamo! After importing connect, and my getLyrics action, I call the function wit
 ![MusixMatch Wireframe](wireframe/musixmatch-wireframe.png)
 ## Future Ideas
 
-I want to utilize more of what the API offers. The goal is to display more track info when each song is displayed, and possibly find a way to pull up a youtube video of the song.
+I want to eventually utilize more of what the API offers. The goal is to display more track info when each song is displayed, and possibly find a way to pull up a youtube video of the song.
+
+I would also love for users to be able to create accounts, so they can see their own favorites.
 
