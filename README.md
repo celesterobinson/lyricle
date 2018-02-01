@@ -10,11 +10,14 @@ Unfortunately, full use of this API is very expensive. Users will only be able t
 
 ### Home Page
 
-#### Web View
+#### Web Views
+##### Home Page
 ![homepage-web](screenshots/homepage-web-view.png)
+##### Lyrics Page
+![lyrics-page](screenshots/lyrics-web-view.png)
 
-### Mobile View<br/>
-<img alt="homepage-web-view" src="screenshots/homepage-mobile-view.png" width="300" height="auto"><img alt="homepage-web-view" src="screenshots/lyrics-mobile-view.png" width="300" height="auto">
+### Mobile Views<br/>
+Home Page<img alt="homepage-web-view" src="screenshots/homepage-mobile-view.png" width="300" height="auto">Lyrics Page<img alt="homepage-web-view" src="screenshots/lyrics-mobile-view.png" width="300" height="auto">
 
 ## Links
 
