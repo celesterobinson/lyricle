@@ -9,7 +9,7 @@
     grid-template-rows: 10% 85% 5%;
     grid-template-areas: "h" "m" "f";
     height: 100vh;
-    background-image: url(../images/singer.jpg);
+    background-image: url(../images/singer-compressed.jpg);
     font-family: 'Indie Flower', cursive;
     background-size: 100% 100%;
     background-attachment: fixed;
