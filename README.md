@@ -82,5 +82,25 @@ export const getLyrics = (inputs) => {
 }
 ```
 
-To get these request to function, the action needed to be called the form submission. To do this, I used the {connect} method from react-redux. This allowed me to access the action from my form.
+To get these requests to function, the action needed to be called the form submission. To do this, I used the {connect} method from react-redux. This allowed me to access the action from my form.
+
+```
+import { connect } from "react-redux";
+import { getLyrics } from "../redux/track";
+```
+
+```
+ handleSubmit(e) {
+        e.preventDefault();
+        this.props.getLyrics(this.state.inputs);
+    }
+```
+
+Blamo! After importing connect, and my getLyrics action, I call the function with this.state.inputs passed in, and my request is made.
+
+## Wireframes
+
+## Future Ideas
+
+I eventually want to display more track info when each song is displayed. 
 
