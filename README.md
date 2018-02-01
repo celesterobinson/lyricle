@@ -15,6 +15,7 @@ Unfortunately, full use of this API is very expensive. Users will only be able t
 
 ### Mobile View<br/>
 <img alt="homepage-web-view" src="screenshots/homepage-mobile-view.png" width="250" height="auto">
+<img alt="homepage-web-view" src="screenshots/homepage-mobile-view.png" width="250" height="auto">
 
 ## Links
 
