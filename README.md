@@ -17,7 +17,9 @@ Unfortunately, full use of this API is very expensive. Users will only be able t
 ![lyrics-page](screenshots/lyrics-web-view.png)
 
 ### Mobile Views<br/>
-Home Page<br/><img alt="homepage-web-view" src="screenshots/homepage-mobile-view.png" width="300" height="auto">Lyrics Page<br/><img alt="homepage-web-view" src="screenshots/lyrics-mobile-view.png" width="300" height="auto">
+Home Page<br/><img alt="homepage-web-view" src="screenshots/homepage-mobile-view.png" width="300" height="auto"><br/>
+Lyrics Page<br/>
+<img alt="homepage-web-view" src="screenshots/lyrics-mobile-view.png" width="300" height="auto">
 
 ## Links
 
@@ -28,3 +30,29 @@ GitHub Repository: https://github.com/celesterobinson/lyricle
 ## Technologies Used
 * HTML, CSS, React, Redux + Thunk, Javascript, Axios
 * Express + Middleware
+
+## Code Examples
+
+Due to how small this app was, Redux wasn't really necessary. My main reason for using it was to better familiarize myself with it, and fully understand the benefits it provides to larger projects. Through its use on Lyricle, I realized that there are also benefits to using it on smaller projects. 
+
+It was incredibly useful throughout building this app to have all of my AJAX requests as in one file, separate from other code. It's easy to look at my reducer and actions to see exactly what is happening.
+
+```
+const lyricsReducer = (track = defaultTrack, action) => {
+    switch (action.type) {
+        case "GET_TRACK":
+            return {
+                ...track,
+                data: action.track
+            }
+        case "ERR":
+            return {
+                ...track,
+                errMsg: action.msg
+            }
+        default:
+            return track;
+    }
+}
+```
+
