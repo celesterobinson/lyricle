@@ -8,12 +8,20 @@ Build an React/Redux App integrated with the MusixMatch API that displays lyrics
 
 Unfortunately, full use of this API is very expensive. Users will only be able to see 30% of the lyrics. Ultimate goal is to purchase full use.
 
-##Home Page
+### Home Page
 
-Web View
-![homepage](screenshots/homepage-web-view.png)
+#### Web View
+<img alt="homepage-web-view" src="screenshots/homepage-web-view.png" width="250" height="auto">
 
-Mobile View<br/>
+### Mobile View<br/>
 ![homepage-mobile](screenshots/homepage-mobile-view.png)
 
 ## Links
+
+Live URL: https://lyricle.herokuapp.com/
+
+GitHub Repository: https://github.com/celesterobinson/lyricle
+
+## Technologies Used
+* React, Redux, CSS, Javascript
+* Express, 
