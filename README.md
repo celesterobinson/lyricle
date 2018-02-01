@@ -8,9 +8,7 @@ Build a React/Redux App integrated with the MusixMatch API that displays lyrics 
 
 Unfortunately, full use of this API is very expensive. Users will only be able to see 30% of the lyrics. My long-term goal is to purchase full use.
 
-### Home Page
-
-#### Web Views
+### Web Views
 ##### Home Page
 ![homepage-web](screenshots/homepage-web-view.png)
 ##### Lyrics Page
@@ -33,11 +31,9 @@ GitHub Repository: https://github.com/celesterobinson/lyricle
 
 ## Code Examples
 
-Due to how small this app was, Redux wasn't really necessary. My main reason for using it was to better familiarize myself with it, and fully understand the benefits it provides to larger projects. Through its use on Lyricle, I realized that there are also benefits to using it on smaller projects. 
+I used redux on this project because I needed to share information across multiple views. Redux implements a global state that allows me to do just that. A few other advantages of using Redux was readability and organization.
 
-It was incredibly useful throughout building this app to have all of my AJAX requests in one file, separate from the other code. The readability alone made redux worth using for me.
-
-The below example shows my post requests. I had to first request the track which would be pushed into the the track list array. From there, I could find that track's id, create another post request with the id included, and that response would include the body of lyrics.  It was my first time having to do a post inside of a post, and was difficult to wrap my mind around at first.
+The below example shows my post requests. I had to first request the track which would be pushed into the the track list array. From there, I could find that track's id, create another post request with the id included, and that response would include the body of lyrics. This example demonstrates the use of a promise chain, which is a series of multiple promises inside of each other. Understanding the sequential nature of promise chains was one of the more challenging parts of this project.
 
 ```
 export const getLyrics = (inputs) => {
