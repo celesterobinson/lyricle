@@ -11,10 +11,10 @@ Unfortunately, full use of this API is very expensive. Users will only be able t
 ### Home Page
 
 #### Web View
-<img alt="homepage-web-view" src="screenshots/homepage-web-view.png" width="250" height="auto">
+![homepage-web](screenshots/homepage-web-view.png)
 
 ### Mobile View<br/>
-![homepage-mobile](screenshots/homepage-mobile-view.png)
+<img alt="homepage-web-view" src="screenshots/homepage-mobile-view.png" width="250" height="auto">
 
 ## Links
 
@@ -23,5 +23,5 @@ Live URL: https://lyricle.herokuapp.com/
 GitHub Repository: https://github.com/celesterobinson/lyricle
 
 ## Technologies Used
-* React, Redux, CSS, Javascript
-* Express, 
+* HTML, CSS, React, Redux + Thunk, Javascript, Axios
+* Express + Middleware
