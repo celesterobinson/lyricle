@@ -13,11 +13,13 @@ Unfortunately, full use of this API is very expensive. Users will only be able t
 ![homepage-web](screenshots/homepage-web-view.png)
 ##### Lyrics Page
 ![lyrics-page](screenshots/lyrics-web-view.png)
+##### Faves Page
+![faves-page](screenshots/faves-web-view.png)
 
 
 Home Page | Lyrics Page | Faves Page
 --- | --- | ---
-<img alt="homepage-web-view" src="screenshots/homepage-mobile-view.png" width="300" height="auto"> | <img alt="homepage-web-view" src="screenshots/lyrics-mobile-view.png" width="300" height="auto"> | <img alt="homepage-web-view" src="screenshots/lyrics-mobile-view.png" width="300" height="auto">
+<img alt="homepage-web-view" src="screenshots/homepage-mobile-view.png" width="300" height="auto"> | <img alt="lyrics-web-view" src="screenshots/lyrics-mobile-view.png" width="300" height="auto"> | <img alt="faves-web-view" src="screenshots/faves-mobile-view.png" width="300" height="auto">
 
 ## Links
 
@@ -95,8 +97,8 @@ import { getLyrics } from "../redux/track";
 Blamo! After importing connect, and my getLyrics action, I call the function with this.state.inputs passed in, and my request is made.
 
 ## Wireframes
-
+![MusixMatch Wireframe](wireframe/musixmatch-wireframe.png)
 ## Future Ideas
 
-I eventually want to display more track info when each song is displayed. 
+I want to utilize more of what the API offers. The goal is to display more track info when each song is displayed, and possibly find a way to pull up a youtube video of the song.
 
