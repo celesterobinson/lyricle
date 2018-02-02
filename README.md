@@ -4,11 +4,14 @@ Celeste Robinson
 
 ## Objective
 
-Build a React/Redux App integrated with the MusixMatch API that displays lyrics based on user input. Allow user to favorite songs they love so they can quickly access the lyrics of those songs. Make the app completely responsive.
+Build a React/Redux App integrated with the MusixMatch API that displays lyrics based on user input. Make the app completely responsive.
 
 Unfortunately, the free tier of the API only gives the first 30% of the lyrics.
 
 ### Web Views 
+
+I have included a faves page, which will eventually hold the user's favorite lyrics in an array. 
+
 ##### Home Page
 ![homepage-web](screenshots/homepage-web-view.png)
 ##### Lyrics Page
@@ -98,6 +101,8 @@ Blamo! After importing connect, and my ```getLyrics``` action, I call the functi
 ## Future Ideas
 
 I want to eventually utilize more of what the API offers. The goal is to display more track info when each song is displayed, and possibly find a way to pull up a youtube video of the song.
+
+Allow user to favorite songs they love so they can quickly access the lyrics of those songs.
 
 I would also love for users to be able to create accounts, so they can see their own favorites.
 

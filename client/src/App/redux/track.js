@@ -10,7 +10,8 @@ const lyricsReducer = (track = defaultTrack, action) => {
         case "GET_TRACK":
             return {
                 ...track,
-                data: action.track
+                data: action.track,
+                errMsg: ""
             }
         case "ERR":
             return {
@@ -24,6 +25,7 @@ const lyricsReducer = (track = defaultTrack, action) => {
 
 export const getLyrics = (inputs) => {
     let {track, artist} = inputs;
+    console.log(inputs);
     return dispatch => {
         let trackInfo = {};
         const trackUrl = `https://api.musixmatch.com/ws/1.1/track.search?q_track=${track}&q_artist=${artist}&apikey=e14650003ae32bc2229f9573c5408897`;
