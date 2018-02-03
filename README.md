@@ -26,8 +26,6 @@ Home Page | Lyrics Page | Faves Page
 
 ## Links
 
-Live URL: https://lyricle.herokuapp.com/
-
 GitHub Repository: https://github.com/celesterobinson/lyricle
 
 ## Technologies Used
